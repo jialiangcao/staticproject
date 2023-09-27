@@ -1,38 +1,92 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  padding-left: 2rem;
+  text-align: left;
+  background: radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 27, 1) 98%
+  );
   min-height: 100vh;
+  width: auto;
+  color: rgb(231, 244, 246);
+}
+.Home {
+  padding-left: 2rem;
+}
+.Home Img {
+  vertical-align: middle;
+  size: 100px;
+}
+
+.Navbar {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
+  text-align: center;
+  
+}
+
+.Navbar a {
+  padding: 1%;
+}
+
+.Home p {
+  padding-right: 100px;
+}
+.logo {
+  height: 100px;
+  width: auto;
+  padding-right: 15px;
+}
+.secondaryimg {
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+}
+
+.Favorites img {
+  height:300px;
+  width: auto;
+}
+
+.Favorites p {
+  margin-right: 100px;
+}
+
+a {
   color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.Footer {
+  color: white;
+  margin-top: 80px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Footer button {
+  border-radius: 5px;
+  border: 0px;
+  width: auto;
+  height: auto;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  background-color: rgb(126, 197, 221);
+  margin-top: 7px;
 }
+
+.Footer input {
+  margin-left: 10px;
+  width: auto;
+}
+
+label {
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+iframe {
+  border: 5px;
+}
+
