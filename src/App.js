@@ -18,7 +18,7 @@ function App() {
         </div>
 
         <Routes>
-          <Route path="/staticproject/" element={<Home />} />
+          <Route path="/staticproject" element={<Home />} />
           <Route path="/favorites" element={<Favorites />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/spots" element={<Spots />} />
