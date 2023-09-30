@@ -11,7 +11,7 @@ function App() {
     <Router>
       <div className="App">
         <div className="Navbar">
-          <Link to="/">Index</Link>
+          <Link to="/staticproject/">Index</Link>
           <Link to="/favorites">Favorites</Link>
           <Link to="/skills">Skills</Link>
           <Link to="/spots">Spots</Link>
