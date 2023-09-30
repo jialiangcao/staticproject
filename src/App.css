@@ -90,3 +90,13 @@ iframe {
   border: 5px;
 }
 
+.Spots audio {
+  margin-top: 20px;
+  width: 1200px;
+  height: auto;
+}
+
+.food {
+  width: 1200px;
+  height: auto;
+}
